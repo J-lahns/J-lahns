@@ -182,7 +182,7 @@ From IoT + drones to LLMs and game engines — I build end-to-end systems that a
 
 **Visitor count**
 ```md
-[![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=YOUR_USERNAME.YOUR_USERNAME)](https://github.com/YOUR_USERNAME)
+[![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=J-lahns.\J-lahns)](https://github.com/J-lahns)
 
 
 

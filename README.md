@@ -1,72 +1,97 @@
-# 👋 Hi, I'm Orenge James Jr.
-**Full-Stack & Systems Engineer | AI/ML | Robotics & Automation**
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=James%20Junior%20Orenge&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
+</div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Building+Scalable+Cloud+Solutions;AI+%26+Machine+Learning+Integration;Full-Stack+Web+Architecture;Robotics+%26+IoT+Development" alt="Typing SVG" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00FF99&center=true&vCenter=true&width=600&lines=Full-Stack+%26+Systems+Engineer;Building+Scalable+AWS+Cloud+Solutions;Microservices+%26+CI%2FCD+Pipelines;AI%2FML+%26+Robotics+Automation" alt="Typing SVG" />
+  </a>
 </div>
 
 ---
 
-### 🚀 About Me
-I am a Software Developer focused on building resilient, cloud-native applications and AI-driven systems. From designing **microservices** to deploying **IoT automation**, I bridge the gap between complex backend logic and seamless user experiences.
+### 🚀 The Blueprint
+I am a Software Developer who thrives in the deep end. I don't just write code; I architect **resilient, cloud-native solutions** that can handle real-world traffic. From designing decoupled **microservices** to automating **CI/CD pipelines**, I build end-to-end systems that are production-ready, agile, and scalable. 
 
-* 🔭 **Current Focus:** Scaling **Agripool** (Marketplace & Automation).
-* ☁️ **Cloud Expertise:** Deep diving into **AWS architecture** and distributed systems.
-* 🤖 **AI/ML:** Implementing RAG architectures and Computer Vision pipelines.
-* 🎬 **Fun Fact:** I’m active in film production—I bring a director's eye for detail to my code.
+<img src="https://raw.githubusercontent.com/trinhngocminh/trinhngocminh/main/gif/code.gif" width="300" align="right" alt="3D coding animation">
 
----
-
-### 🛠 Tech Stack & Tools
-
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black" />
-</p>
+* 🔭 **Current Mission:** Scaling **Agripool** (Marketplace & Automation) to handle high-volume transactions.
+* ☁️ **Cloud Native:** Obsessed with distributed environments, serverless computing, and robust API integrations.
+* 🧠 **AI/ML:** Building LLM & RAG architectures, NLP pipelines, and Computer Vision models.
+* 🎬 **Fun Fact:** I direct and produce film. I treat system architecture like a movie set—every moving piece needs to execute flawlessly.
 
 ---
 
-### 📊 GitHub Statistics
+### 💼 Engineering Experience (The Heavy Lifting)
 
-<p align="center">
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=J-lahns&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J-lahns&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+I've leveled up my projects to function exactly how enterprise tech companies operate:
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=J-lahns&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-### 💼 Professional Experience & Projects
-
-* **Agripool (Founder):** Building a marketplace utilizing **Node.js** and **PostgreSQL** to automate door-to-door fresh farm delivery.
-* **Ecommerce Price Hopper:** Developed a Chrome Extension for real-time price comparison across global platforms using JavaScript.
-* **Campus Hub:** Architected a high-performance student housing platform using modern web stacks.
+* **Founder & Lead Developer @ Agripool** * *Cloud & Scalability:* Deployed, managed, and scaled the platform's backend on **AWS cloud infrastructure** (EC2, S3, RDS) to ensure zero downtime for door-to-door delivery tracking.
+  * *Microservices:* Transitioned monolithic backend logic into a **microservices architecture** using Node.js and RESTful APIs for faster, isolated deployments.
+* **Cloud & Systems Engineer (Freelance / Contract)**
+  * *CI/CD & DevOps:* Built and automated **CI/CD pipelines** using GitHub Actions and Docker, cutting deployment time in half and enforcing strict code review protocols.
+  * *Agile Development:* Worked autonomously within remote agile environments, delivering optimized backend services and seamless third-party API integrations for various clients.
+* **Lead Developer @ Campus Hub**
+  * *Serverless:* Implemented **serverless computing** functions to handle real-time student housing search queries, drastically improving system performance and reducing compute costs.
 
 ---
 
-### 📬 Let's Connect!
+### 🧰 Tech Stack & Arsenal
 
-<p align="left">
-<a href="https://linkedin.com/in/junior-lahns" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="junior lahns" height="30" width="40" /></a>
-<a href="https://instagram.com/junior_lahn_s" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="junior_lahn_s" height="30" width="40" /></a>
-<a href="mailto:juniorlahns6@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" height="30" /></a>
-</p>
+**Cloud, DevOps & Backend** (The Engine) <br>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,githubactions,linux,nginx,bash&theme=dark" />
+</a><br>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,python,fastapi,flask,graphql,prisma&theme=dark" />
+</a>
+
+**Databases & AI** (The Brains) <br>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,supabase,firebase,pytorch,tensorflow&theme=dark" />
+</a>
+
+**Languages, Frontend & Game Dev** (The Interface) <br>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=ts,js,cs,rust,react,nextjs,tailwind,flutter,unity,blender&theme=dark" />
+</a>
+
+---
+
+### 🔥 GitHub Activity & Analytics
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=J-lahns&show_icons=true&theme=radical&hide_border=true&count_private=true&title_color=00ff99&icon_color=36BCF7" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J-lahns&layout=compact&theme=radical&hide_border=true&title_color=00ff99" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=J-lahns&theme=radical&hide_border=true&title_color=00ff99&ring=36BCF7&fire=00ff99" />
+</div>
+
+---
+
+### 🌐 Secure The Connection
+
+<div align="center">
+  <a href="https://linkedin.com/in/junior-lahns" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/J-lahns" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://upwork.com/freelancers/~01b7a..." target="_blank">
+    <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white" alt="Upwork"/>
+  </a>
+  <a href="mailto:juniorlahns6@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=100&section=footer" />
 </div>

@@ -28,7 +28,10 @@ I am a Software Developer who thrives in the deep end. I don't just write code; 
 
 <div align="center">
   <img src="assets/pipeline.svg" width="800" alt="Animated pipeline: Commit, Build, Test, Deploy to AWS" />
-</div>
+</div> 
+
+<div align="center"> <img src="assets/architecture.svg" width="800" alt="Animated architecture: Agripool microservices on AWS and Campus Hub serverless search" /> </div>
+
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff99,50:36bcf7,100:fe428e&height=3&section=header" width="100%" alt="" />
 

@@ -27,6 +27,15 @@ I care about more than getting code to run: I want to understand the problem, bu
 - 🧠 **Learning by building:** backend fundamentals, data-driven features, and applied AI workflows.
 - 🎬 **Beyond code:** acting, writing, directing, and producing stories with a Kenyan point of view.
 
+
+<p align="center">
+  <img
+    src="assets/signature-process.svg"
+    width="100%"
+    alt="J-lahns engineering loop: Idea, Build, Test, Refine, Ship, and repeat"
+  />
+</p>
+
 ## 🧩 Selected projects
 
 <table>

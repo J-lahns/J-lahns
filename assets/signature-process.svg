@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">J-lahns engineering loop</title>
+  <desc id="desc">A neon animated process cycle: Idea, Build, Test, Refine, Ship, and repeat.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00FF99"/>
+      <stop offset="52%" stop-color="#36BCF7"/>
+      <stop offset="100%" stop-color="#FE428E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#191827"/>
+      <stop offset="100%" stop-color="#11111D"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="7" y="7" width="986" height="266" rx="22" fill="url(#panel)" stroke="#333247" stroke-width="1.5"/>
+  <rect x="8" y="8" width="984" height="264" rx="21" fill="url(#grid)"/>
+  <rect x="28" y="26" width="4" height="28" rx="2" fill="url(#accent)"/>
+
+  <text x="44" y="37" fill="#F2F1FA" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2">J-LAHNS / ENGINEERING LOOP</text>
+  <text x="44" y="56" fill="#9A99B2" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="0.7">A practical cycle for turning ideas into working things</text>
+
+  <g transform="translate(824 28)">
+    <rect width="142" height="28" rx="14" fill="#1B2930" stroke="#246C61"/>
+    <circle cx="15" cy="14" r="4" fill="#00FF99">
+      <animate attributeName="opacity" values="1;0.42;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="18" fill="#B7FFE5" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.1">ALWAYS ITERATE</text>
+  </g>
+
+  <path d="M 110 132 H 890" fill="none" stroke="#343249" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 110 132 H 890" fill="none" stroke="url(#accent)" stroke-opacity="0.42" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 9">
+    <animate attributeName="stroke-dashoffset" values="0;-56" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Three staggered signal pulses travel through the process. -->
+  <circle cx="110" cy="132" r="4.5" fill="#FFFFFF" opacity="0">
+    <animate attributeName="cx" values="110;890;890" keyTimes="0;0.82;1" calcMode="linear" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.78;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="110" cy="132" r="2.8" fill="#00FF99" opacity="0">
+    <animate attributeName="cx" values="110;890;890" keyTimes="0;0.82;1" calcMode="linear" dur="6s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.78;1" dur="6s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="110" cy="132" r="2.8" fill="#FE428E" opacity="0">
+    <animate attributeName="cx" values="110;890;890" keyTimes="0;0.82;1" calcMode="linear" dur="6s" begin="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.78;1" dur="6s" begin="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- IDEA -->
+  <g>
+    <circle cx="110" cy="132" r="27" fill="#181F2B" stroke="#00FF99" stroke-width="1.6"/>
+    <circle cx="110" cy="132" r="33" fill="none" stroke="#00FF99" stroke-opacity="0.28" stroke-width="1">
+      <animate attributeName="r" values="30;36;30" dur="3.8s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.32;0.06;0.32" dur="3.8s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="none" stroke="#00FF99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M102 130a8 8 0 1 1 16 0c0 3-2 4-3 6h-10c-1-2-3-3-3-6z"/>
+      <path d="M105 140h10M106 144h8M107 147h6M110 119v-3M98 123l-2-2M122 123l2-2"/>
+    </g>
+    <text x="110" y="183" text-anchor="middle" fill="#F3F2FA" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">IDEA</text>
+    <text x="110" y="201" text-anchor="middle" fill="#A4A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Find the problem</text>
+  </g>
+
+  <!-- BUILD -->
+  <g>
+    <circle cx="305" cy="132" r="27" fill="#172333" stroke="#36BCF7" stroke-width="1.6"/>
+    <circle cx="305" cy="132" r="33" fill="none" stroke="#36BCF7" stroke-opacity="0.25" stroke-width="1">
+      <animate attributeName="r" values="30;36;30" dur="3.8s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.32;0.06;0.32" dur="3.8s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="none" stroke="#36BCF7" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M299 123l-7 9 7 9M311 123l7 9-7 9M308 120l-6 24"/>
+    </g>
+    <text x="305" y="183" text-anchor="middle" fill="#F3F2FA" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">BUILD</text>
+    <text x="305" y="201" text-anchor="middle" fill="#A4A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Make it real</text>
+  </g>
+
+  <!-- TEST -->
+  <g>
+    <circle cx="500" cy="132" r="27" fill="#262133" stroke="#C49BFF" stroke-width="1.6"/>
+    <circle cx="500" cy="132" r="33" fill="none" stroke="#C49BFF" stroke-opacity="0.25" stroke-width="1">
+      <animate attributeName="r" values="30;36;30" dur="3.8s" begin="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.32;0.06;0.32" dur="3.8s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="none" stroke="#D3B4FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="496" cy="128" r="8"/>
+      <path d="M502 134l7 7M492 128l3 3 5-6"/>
+    </g>
+    <text x="500" y="183" text-anchor="middle" fill="#F3F2FA" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">TEST</text>
+    <text x="500" y="201" text-anchor="middle" fill="#A4A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Check the paths</text>
+  </g>
+
+  <!-- REFINE -->
+  <g>
+    <circle cx="695" cy="132" r="27" fill="#281E2E" stroke="#FE428E" stroke-width="1.6"/>
+    <circle cx="695" cy="132" r="33" fill="none" stroke="#FE428E" stroke-opacity="0.25" stroke-width="1">
+      <animate attributeName="r" values="30;36;30" dur="3.8s" begin="2.1s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.32;0.06;0.32" dur="3.8s" begin="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="none" stroke="#FF8DBB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M685 124h20M685 132h20M685 140h20"/>
+      <circle cx="691" cy="124" r="2.4" fill="#281E2E"/><circle cx="700" cy="132" r="2.4" fill="#281E2E"/><circle cx="692" cy="140" r="2.4" fill="#281E2E"/>
+    </g>
+    <text x="695" y="183" text-anchor="middle" fill="#F3F2FA" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">REFINE</text>
+    <text x="695" y="201" text-anchor="middle" fill="#A4A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Learn and improve</text>
+  </g>
+
+  <!-- SHIP -->
+  <g>
+    <circle cx="890" cy="132" r="27" fill="#292126" stroke="#FFB86B" stroke-width="1.6"/>
+    <circle cx="890" cy="132" r="33" fill="none" stroke="#FFB86B" stroke-opacity="0.25" stroke-width="1">
+      <animate attributeName="r" values="30;36;30" dur="3.8s" begin="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.32;0.06;0.32" dur="3.8s" begin="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="none" stroke="#FFCB91" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M884 138l-1-10 10-7 3 11-7 10z"/>
+      <circle cx="890" cy="128" r="2"/>
+      <path d="M883 135l-5 1 5-7M889 143l1 5 4-7"/>
+    </g>
+    <text x="890" y="183" text-anchor="middle" fill="#F3F2FA" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">SHIP</text>
+    <text x="890" y="201" text-anchor="middle" fill="#A4A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Deliver and listen</text>
+  </g>
+
+  <path d="M890 230 C890 248 110 248 110 230" fill="none" stroke="#55516D" stroke-width="1.4" stroke-dasharray="3 6" stroke-linecap="round"/>
+  <path d="M118 225l-8 5 8 5" fill="none" stroke="#00FF99" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="500" y="251" text-anchor="middle" fill="#B8B5D0" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="2">SHIP IS NOT THE END — IT'S FEEDBACK FOR THE NEXT IDEA</text>
+
+  <rect x="8" y="8" width="984" height="3" rx="1.5" fill="url(#accent)" opacity="0.9"/>
+</svg>

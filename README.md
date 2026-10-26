@@ -37,12 +37,25 @@ I care about more than getting code to run: I want to understand the problem, bu
       <p><strong>Focus:</strong> web product development, student workflows, marketplace experience.</p>
       <p><a href="https://campushub.yreen.co.ke/">Open platform ↗</a> · <a href="https://github.com/J-lahns/CumpusHub_wireframes">Explore wireframes ↗</a></p>
     </td>
-    <td width="50%" valign="top">
-      <h3>🔢 PLAY IT Sudoku</h3>
-      <p>An Android Sudoku game focused on a clean play experience, difficulty selection, pencil notes, hints, and mistake feedback.</p>
-      <p><strong>Focus:</strong> Kotlin, Jetpack Compose, game state, interaction design, testing.</p>
-      <p><em>Android project in development; source link will be added when the repository is publicly available.</em></p>
-    </td>
+    
+<td width="50%" valign="top">
+  <h3>🔢 PLAY IT Sudoku</h3>
+
+  <p>An Android Sudoku game focused on a clean play experience, difficulty selection, pencil notes, hints, and mistake feedback.</p>
+
+  <p align="center">
+    <img
+      src="https://raw.githubusercontent.com/J-lahns/J-lahns/main/play-it-sudoku-demo.gif"
+      alt="PLAY IT Sudoku gameplay demonstration"
+      width="320"
+    />
+  </p>
+
+  <p><strong>Focus:</strong> Kotlin, Jetpack Compose, game state, interaction design, testing.</p>
+
+  <p><em>Android project; source link will be added when the repository is publicly available.</em></p>
+</td>
+
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -66,7 +79,7 @@ I care about more than getting code to run: I want to understand the problem, bu
 
 <p>
   <strong>Languages</strong><br />
-  <img src="https://skillicons.dev/icons?i=js,python,java,kotlin,html,css,mysql&theme=dark" alt="JavaScript, Python, Java, Kotlin, HTML, CSS and SQL" />
+  <img src="https://skillicons.dev/icons?i=js,python,java,kotlin,html,css,mysql&theme=dark" alt="JavaScript, Python, Java, Kotlin, HTML, CSS and MySQL" />
 </p>
 <p>
   <strong>Web &amp; application development</strong><br />
@@ -107,7 +120,9 @@ I care about more than getting code to run: I want to understand the problem, bu
   </picture>
 </p>
 
-> **If the snake does not appear:** add the included `.github/workflows/snake.yml` workflow to this profile repository, push it to `main`, then run **Actions → Generate contribution snake → Run workflow**. The workflow publishes the SVGs to the `output` branch.
+
+> **If the snake does not appear:** open **Actions → Generate Snake → Run workflow**. The existing workflow publishes the SVGs to the `output` branch. If the run fails, open its logs to identify the problem.
+
 
 ## 🤝 Connect
 

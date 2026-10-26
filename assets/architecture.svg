@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Product architecture map</title><desc id="desc">A general product-design model connecting interface, application logic, integrations and data.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141321"/><stop offset="1" stop-color="#1D2038"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00FF99"/><stop offset="0.55" stop-color="#36BCF7"/><stop offset="1" stop-color="#FE428E"/></linearGradient>
+  </defs>
+  <rect width="1200" height="330" rx="18" fill="url(#bg)" stroke="#34334C"/>
+  <text x="32" y="35" fill="#E6EDF3" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">A PRODUCT-THINKING MAP</text>
+  <text x="32" y="58" fill="#9CA3AF" font-family="Arial,sans-serif" font-size="12">A general model for separating user experience, business logic, integrations and data.</text>
+  <g font-family="Arial,sans-serif">
+    <g><rect x="32" y="94" width="245" height="184" rx="14" fill="#1A2931" stroke="#00FF99" stroke-width="1.5"/><text x="54" y="126" font-size="13" font-weight="700" fill="#00FF99">01 / EXPERIENCE</text><text x="54" y="160" font-size="20" font-weight="700" fill="#F8FAFC">Interfaces</text><text x="54" y="190" font-size="13" fill="#C4CDD8">Web · Android</text><text x="54" y="211" font-size="13" fill="#C4CDD8">Navigation · Forms</text><text x="54" y="232" font-size="13" fill="#C4CDD8">Clear user feedback</text></g>
+    <g><rect x="337" y="94" width="245" height="184" rx="14" fill="#1A2635" stroke="#36BCF7" stroke-width="1.5"/><text x="359" y="126" font-size="13" font-weight="700" fill="#36BCF7">02 / APPLICATION</text><text x="359" y="160" font-size="20" font-weight="700" fill="#F8FAFC">Core logic</text><text x="359" y="190" font-size="13" fill="#C4CDD8">Validation · State</text><text x="359" y="211" font-size="13" fill="#C4CDD8">Rules · API endpoints</text><text x="359" y="232" font-size="13" fill="#C4CDD8">Errors · Permissions</text></g>
+    <g><rect x="642" y="94" width="245" height="184" rx="14" fill="#251F37" stroke="#B875E6" stroke-width="1.5"/><text x="664" y="126" font-size="13" font-weight="700" fill="#C58AF0">03 / INTEGRATIONS</text><text x="664" y="160" font-size="20" font-weight="700" fill="#F8FAFC">Services</text><text x="664" y="190" font-size="13" fill="#C4CDD8">External APIs</text><text x="664" y="211" font-size="13" fill="#C4CDD8">Automation · Jobs</text><text x="664" y="232" font-size="13" fill="#C4CDD8">Observability</text></g>
+    <g><rect x="947" y="94" width="221" height="184" rx="14" fill="#302032" stroke="#FE428E" stroke-width="1.5"/><text x="969" y="126" font-size="13" font-weight="700" fill="#FE428E">04 / DATA</text><text x="969" y="160" font-size="20" font-weight="700" fill="#F8FAFC">Persistence</text><text x="969" y="190" font-size="13" fill="#C4CDD8">SQL · Files</text><text x="969" y="211" font-size="13" fill="#C4CDD8">Validation · Backups</text><text x="969" y="232" font-size="13" fill="#C4CDD8">Reliable data flow</text></g>
+  </g>
+  <g fill="none" stroke="url(#edge)" stroke-width="3" stroke-linecap="round">
+    <path d="M277 186 H329"/><path d="M582 186 H634"/><path d="M887 186 H939"/>
+  </g>
+  <g fill="#E6EDF3"><path d="M321 179 l8 7 -8 7z"/><path d="M626 179 l8 7 -8 7z"/><path d="M931 179 l8 7 -8 7z"/></g>
+  <circle r="4" fill="#FFFFFF"><animateMotion dur="3.5s" repeatCount="indefinite" path="M277 186 H329"/></circle>
+  <circle r="4" fill="#FFFFFF"><animateMotion dur="3.5s" begin="-.8s" repeatCount="indefinite" path="M582 186 H634"/></circle>
+  <circle r="4" fill="#FFFFFF"><animateMotion dur="3.5s" begin="-1.6s" repeatCount="indefinite" path="M887 186 H939"/></circle>
+</svg>

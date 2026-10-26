@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Build pipeline</title><desc id="desc">Plan, build, test, review, ship and learn connected by an animated neon path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141321"/><stop offset="1" stop-color="#1D2038"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00FF99"/><stop offset="0.5" stop-color="#36BCF7"/><stop offset="1" stop-color="#FE428E"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="220" rx="18" fill="url(#bg)" stroke="#34334C"/>
+  <text x="32" y="34" fill="#E6EDF3" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">THE BUILD LOOP</text>
+  <path d="M110 116 H1090" fill="none" stroke="#34334C" stroke-width="5" stroke-linecap="round"/>
+  <path d="M110 116 H1090" fill="none" stroke="url(#neon)" stroke-width="2" stroke-dasharray="10 14" opacity=".9">
+    <animate attributeName="stroke-dashoffset" from="0" to="-96" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(110 116)"><circle r="31" fill="#1B2931" stroke="#00FF99" stroke-width="2"/><text y="6" font-size="21" fill="#00FF99">01</text><text y="58" font-size="15" fill="#E6EDF3" font-weight="700">PLAN</text><text y="78" font-size="11" fill="#A7B2C3">Define the problem</text></g>
+    <g transform="translate(306 116)"><circle r="31" fill="#1B2931" stroke="#16E9B5" stroke-width="2"/><text y="6" font-size="21" fill="#16E9B5">02</text><text y="58" font-size="15" fill="#E6EDF3" font-weight="700">BUILD</text><text y="78" font-size="11" fill="#A7B2C3">Implement in slices</text></g>
+    <g transform="translate(502 116)"><circle r="31" fill="#1B2931" stroke="#36BCF7" stroke-width="2"/><text y="6" font-size="21" fill="#36BCF7">03</text><text y="58" font-size="15" fill="#E6EDF3" font-weight="700">TEST</text><text y="78" font-size="11" fill="#A7B2C3">Verify real flows</text></g>
+    <g transform="translate(698 116)"><circle r="31" fill="#1B2931" stroke="#56A5FF" stroke-width="2"/><text y="6" font-size="21" fill="#56A5FF">04</text><text y="58" font-size="15" fill="#E6EDF3" font-weight="700">REVIEW</text><text y="78" font-size="11" fill="#A7B2C3">Refine the details</text></g>
+    <g transform="translate(894 116)"><circle r="31" fill="#1B2931" stroke="#BE65D8" stroke-width="2"/><text y="6" font-size="21" fill="#BE65D8">05</text><text y="58" font-size="15" fill="#E6EDF3" font-weight="700">SHIP</text><text y="78" font-size="11" fill="#A7B2C3">Deliver a usable build</text></g>
+    <g transform="translate(1090 116)"><circle r="31" fill="#1B2931" stroke="#FE428E" stroke-width="2"/><text y="6" font-size="21" fill="#FE428E">06</text><text y="58" font-size="15" fill="#E6EDF3" font-weight="700">LEARN</text><text y="78" font-size="11" fill="#A7B2C3">Improve from feedback</text></g>
+  </g>
+  <circle r="5" fill="#FFFFFF" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite" path="M110 116 H1090"/></circle>
+</svg>
